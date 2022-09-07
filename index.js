@@ -1,4 +1,4 @@
-function dropdownMenu(options) {
+function dropdownMenu() {
   document.addEventListener('click', e => {
     const isDropdownButton = e.target.matches('[data-dropdown-btn')
 
